@@ -1,0 +1,507 @@
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif; */
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
+.right {
+    margin: 0;
+    margin-left: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu-principal {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.mv-d {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #FF2666;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 1.2rem;
+}
+
+.nav-movil img {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.enlaces a {
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    display: block;
+}
+
+.enlaces a:hover {
+    background-color: #FF2666;
+}
+
+.enlaces {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
+
+.wave {
+    background-image: url(https://i.ibb.co/vDhGJs2/ondas.png), linear-gradient(237deg, rgb(0, 0, 0) 0%, rgb(54, 54, 54) 50%, #b1b1b1 100%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 150vh;
+}
+
+.cont-pro {
+    text-align: center;
+}
+
+.cont-pro h1 {
+    color: rgb(231, 229, 229);
+    text-transform: uppercase;
+}
+
+.cont-pro h1 img {
+    background-color: white;
+    top: -2rem;
+}
+
+.boton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #FF2666;
+    transition: all 500ms ease;
+}
+
+.cont-btn {
+    margin-top: 2rem;
+}
+
+.cont-pro2 {
+    margin: 10px;
+    color: rgb(201, 204, 201);
+    font-weight: bold;
+}
+
+.cont-pro2 h1 {
+    color: white;
+}
+
+.cont-principal {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cont-principal h2 {
+    color: #FF2666
+}
+
+.td-body {
+    margin-top: 2rem;
+}
+
+.cont-1,
+.cont-2,
+.cont3 {
+    margin: 2rem 0;
+}
+
+.cont-p1 p {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(95, 94, 94);
+}
+
+.cm {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #FF2666;
+}
+
+.h {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.cont-saludable {
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/22/09/59/fruit-1534494_960_720.jpg);
+    height: 120vh;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cont-p3 p {
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+    line-height: 2;
+}
+
+.r {
+    color: white;
+}
+
+.cont {
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 120vh;
+}
+
+.pesa {
+    background-color: #FF2666;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    text-align: center;
+}
+
+.pesa img {
+    margin-top: 30%;
+}
+
+.studi {
+    background-color: #FF2666;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    text-align: center;
+}
+
+.studi img {
+    margin-top: 10%;
+}
+
+.mas {
+    color: #FF2666;
+    font-size: 2rem;
+}
+
+.suma {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.r {
+    color: black
+}
+
+.cont-r {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.cont-numeros p {
+    color: #FF2666;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.cont-des p {
+    color: #000000;
+    font-weight: bold;
+    line-height: 4;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+footer {
+    border-top: 2px solid #FF2666;
+}
+
+footer h2 {
+    color: #FF2666;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.cont-p4 p {
+    color: #202020;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.e {
+    color: #FF2666;
+}
+
+.enlaces2 {
+    text-align: center;
+}
+
+.enlaces2 a {
+    margin: 0 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.enlaces2 a:hover {
+    border-bottom: 2px solid #FF2666;
+}
+
+.copy {
+    text-align: center;
+    border-top: 2px solid #FF2666;
+    padding: 10px 0;
+    color: black;
+    font-weight: 400;
+}
+
+.img-form {
+    background-image: url(https://cdn.pixabay.com/photo/2019/08/14/18/20/castle-4406410_960_720.jpg);
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.fondo-form {
+    background-color: #00000059;
+    height: 120vh;
+    width: 100%;
+}
+
+.cont-form {
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 2rem 20px;
+    border: 1px solid #FF2666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #FF2666;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+}
+
+textarea,
+input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.botonc {
+    margin-top: 2rem;
+}
+
+.botonc button {
+    background-color: #000000;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botonc button:hover {
+    background-color: #FF2666;
+    border: 1px solid #FF2666;
+    color: white;
+    transition: all 500ms ease-in;
+}
+
+@media only screen and (min-width: 768px) {
+    .youtube {
+        margin-top: 2rem;
+    }
+    .youtube2 {
+        margin: 2rem;
+    }
+    .m-form {
+        padding-top: 8rem;
+    }
+    .cont-form {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .flex2 {
+        display: flex;
+        align-content: center;
+        display: flex;
+    }
+    .menu-segundario,
+    .ubicanos,
+    .nosotros {
+        width: 33%;
+        margin: 1rem;
+    }
+    .cont-saludable {
+        height: 75vh;
+    }
+    .cont {
+        background-color: rgba(0, 0, 0, 0.534);
+        height: 75vh;
+    }
+    .suma {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .suma .pesa,
+    .studi {
+        margin: 0 2rem;
+    }
+    .mas {
+        font-size: 4rem;
+    }
+    .cont-p3 {
+        width: 50%;
+        display: flex;
+        margin: 0 auto;
+        font-size: 1.3rem;
+    }
+    .saludable h2 {
+        padding-top: 2rem;
+    }
+    .nav-movil {
+        display: none;
+    }
+    .menu-principal {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mv-d {
+        display: block;
+    }
+    .enlaces {
+        display: flex;
+        margin-right: 4rem;
+    }
+    .enlaces a {
+        margin-right: 2rem;
+        line-height: 2;
+    }
+    .enlaces a:hover {
+        border-bottom: 2px solid #FF2666;
+        background-color: white;
+    }
+    .logo {
+        margin-left: 2rem;
+    }
+    .logo a {
+        line-height: 2;
+        font-size: 2.5rem;
+    }
+    .flex1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .cont-p {
+        text-align: left;
+        line-height: 2;
+        font-size: 1.4rem;
+    }
+    .wave {
+        height: 120vh;
+    }
+    .cont-pro {
+        margin-right: 9rem;
+    }
+    .cont-pro2 {
+        margin-left: 8rem;
+    }
+    .img-mt img {
+        width: 35vh;
+    }
+    .cont-principal h2 {
+        color: #FF2666;
+        font-size: 2rem;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-principal {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+        margin: 10px;
+    }
+    .aside h2 {
+        border-bottom: 2px solid #FF2666;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .td-body {
+        display: flex;
+        flex: 33.3%
+    }
+    .f {
+        text-align: center;
+    }
+    .right {
+        margin-right: 1.2rem;
+        margin-top: 1.5rem;
+    }
+}
